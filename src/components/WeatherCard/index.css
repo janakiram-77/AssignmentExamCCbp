@@ -1,0 +1,117 @@
+@media screen and (min-width: 768px) {
+  .weathercard {
+    height: 80%;
+    width: 80%;
+    background-color: lightblue;
+    background-size: cover;
+  }
+
+  .tempcard {
+    height: 250px;
+    width: 250px;
+    background-color: yellowgreen;
+    border: grey 2px;
+  }
+
+  .humiditycard {
+    height: 250px;
+    width: 250px;
+    background-color: lightpink;
+    border: grey 2px;
+  }
+
+  .windspeedcard {
+    height: 250px;
+    width: 250px;
+    background-color: lightskyblue;
+    border: grey 2px;
+  }
+
+  .weathercondicard {
+    height: 250px;
+    width: 250px;
+    background-color: lightgoldenrodyellow;
+    border: grey 2px;
+  }
+
+  .heading {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+  }
+
+  .para {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 100;
+    color: black;
+  }
+
+  .error {
+    font-size: 12px;
+    font-weight: 200;
+    font-style: italic;
+    color: red;
+    font-family: 'Roboto';
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .weathercard {
+    height: 70%;
+    width: 70%;
+    background-color: lightblue;
+    background-size: cover;
+  }
+
+  .tempcard {
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+    border: grey 2px;
+  }
+
+  .humiditycard {
+    height: 150px;
+    width: 150px;
+    background-color: lightpink;
+    border: grey 2px;
+  }
+
+  .windspeedcard {
+    height: 150px;
+    width: 150px;
+    background-color: lightskyblue;
+    border: grey 2px;
+  }
+
+  .weathercondicard {
+    height: 150px;
+    width: 150px;
+    background-color: lightgoldenrodyellow;
+    border: grey 2px;
+  }
+
+  .heading {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+  }
+
+  .para {
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: normal;
+    color: black;
+  }
+
+  .error {
+    font-size: 9px;
+    font-weight: 100;
+    font-style: italic;
+    color: red;
+    font-family: 'Roboto';
+  }
+}

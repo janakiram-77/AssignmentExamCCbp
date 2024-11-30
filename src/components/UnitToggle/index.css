@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+  .para {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+  }
+
+  .tempButton {
+    background-color: lightblue;
+    height: 145px;
+    width: 50px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 200;
+    color: black;
+    border-radius: 8px;
+    border: 2px grey;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .para {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 200;
+    color: black;
+  }
+
+  .tempButton {
+    background-color: lightblue;
+    height: 125px;
+    width: 35px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 100;
+    color: black;
+    border-radius: 6px;
+    border: 2px grey;
+  }
+}
